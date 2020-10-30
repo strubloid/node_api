@@ -11,6 +11,19 @@ router.get('/', (req, res) => {
     'rafa' : 'test'
   });
 });
+
+router.get('/api/test', (req, res) => {
+  res.json({
+    'rafa' : 'test2'
+  });
+});
+
+router.get('/test', (req, res) => {
+  res.json({
+    'rafa' : 'test3'
+  });
+});
+
 router.get('/another', (req, res) => res.json({ route: req.originalUrl }));
 router.post('/', (req, res) => res.json({ postBody: req.body }));
 
