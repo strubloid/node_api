@@ -65,6 +65,9 @@ coverage
 # node-waf configuration
 .lock-wscript
 
+# Ignoring the generated file
+functions/server.js
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 

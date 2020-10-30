@@ -8,19 +8,19 @@ const bodyParser = require('body-parser');
 const router = express.Router();
 router.get('/', (req, res) => {
   res.json({
-    'rafa' : 'test'
+    'rafa' : 'homepage'
   });
 });
 
 router.get('/api/test', (req, res) => {
   res.json({
-    'rafa' : 'test2'
+    'rafa' : 'api test'
   });
 });
 
 router.get('/test', (req, res) => {
   res.json({
-    'rafa' : 'test3'
+    'rafa' : 'without api'
   });
 });
 
