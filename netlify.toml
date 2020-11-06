@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "/"
-  to = "/.netlify/functions/api/"
+  to = "/api/"
   status = 301
   force = false
