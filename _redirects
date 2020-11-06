@@ -1,2 +1,6 @@
+# Redirecting api to netlify API structure
 /api/ /.netlify/functions/api/ 200!
 /api/* /.netlify/functions/api/:splat 200!
+
+# This is a redirect for async functions from Netlify
+/hello/ /.netlify/functions/hello/ 200!
