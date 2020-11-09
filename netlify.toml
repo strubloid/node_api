@@ -6,4 +6,4 @@
   from = "/"
   to = "/api/"
   status = 301
-  force = false
+  force = true
